@@ -297,7 +297,7 @@ local Toggle = MainTab:CreateToggle({
                     game:GetService("Players").LocalPlayer.Character.StopFiring:FireServer()
                     game:GetService("Players").LocalPlayer.Character.StopFiringHands:FireServer()
                 end
-                wait(0.5)
+                wait(0.1)
             end
         end)
     end,
@@ -355,7 +355,7 @@ local Toggle = MainTab:CreateToggle({
                     game:GetService("Players").LocalPlayer.Character.StopFiring:FireServer()
                     game:GetService("Players").LocalPlayer.Character.StopFiringHands:FireServer()
                 end
-                wait(0.5)
+                wait(0.1)
             end
         end)
     end,
